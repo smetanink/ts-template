@@ -1,0 +1,11 @@
+.husky
+.idea
+.vscode
+.DS_Store
+.editorconfig
+.gitignore
+.npmignore
+.prettierignore
+/dist
+package-lock.json
+LICENSE
