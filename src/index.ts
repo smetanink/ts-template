@@ -1,10 +1,3 @@
-import Pino from 'pino';
+import logger from './logger';
 
-const log = Pino({
-  safe: true,
-  name: 'logger',
-  level: 'trace',
-  timestamp: true,
-});
-
-log.info('It works...');
+logger.info('It works...');
